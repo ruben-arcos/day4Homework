@@ -1,14 +1,13 @@
 {
   "name": "js311_day4_homework",
-  "version": "1.0.0",
   "scripts": {
     "start": "node ./index.js",
     "dev" : "nodemon ./index.js"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "nodemon": "3.0.1"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "4.18.2"
   }
 }
