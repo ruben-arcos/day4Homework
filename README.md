@@ -2,8 +2,8 @@
 
 ## Setup
 
-~~Initialize and run the app: `npm install` && `npm start`. ~~
-~~To run the app in Development mode: `npm run dev`~~
+Initialize and run the app: `npm install` && `npm start`. 
+To run the app in Development mode: `npm run dev`
 
 ## Overview
 
@@ -18,8 +18,8 @@ A web page has been created for us. Our job is to build the server.
 
 ### Express.static
 
-* ~~After "app" is defined, add the `express.static` middleware to express referencing the "public" folder~~
-* ~~`app.use(express.static('public'));`~~
+* After "app" is defined, add the `express.static` middleware to express referencing the "public" folder
+* `app.use(express.static('public'));`
 * Navigate to http://localhost:5001 to see the web page
 
 ### Body-parser
@@ -29,9 +29,9 @@ A web page has been created for us. Our job is to build the server.
 
 ### Create express routes to get all things
 
-* ~~Between lines 2 and 3, require the data from the following .js files:~~
-  * ~~/data/contacts~~
-  *~~ /data/vehicles~~
+* Between lines 2 and 3, require the data from the following .js files:
+  * /data/contacts
+  */data/vehicles
   * /data/comments
   * /data/products
 * Add `app.get()` routes for the following:

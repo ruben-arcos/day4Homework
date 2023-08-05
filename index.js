@@ -31,17 +31,6 @@ app.get("/contacts/:id", (req, res) => {
     }
 })
 
-// * Add `app.post()` routes for the following:
-//   * "/contacts"
-//   * "/vehicles"
-//   * "/comments"
-//   * "/products"
-// * Add the information from the body to the appropriate array
-//   * Figure out how to increment each `_id` by one and add this _id to "req.body"
-//   * Add `postId: 1` to "req.body"
-//   * Finally.. `<ARRAY>.push(req.body)`
-
-//add content
 app.post("/contacts", (req, res) => {
     let newItem = {}
 
